@@ -1,0 +1,22 @@
+{
+  "name": "webpack-devserver-overview",
+  "version": "1.0.0",
+  "description": "Basic example of a configuration of a dev server using webpack and NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brion25/webpack-devserver-overview.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brion25/webpack-devserver-overview/issues"
+  },
+  "homepage": "https://github.com/brion25/webpack-devserver-overview#readme"
+}
