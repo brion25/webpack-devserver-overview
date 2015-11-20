@@ -6,5 +6,6 @@ Hi Guys, as the tilte says, this example is about how to set up a dev server usi
 
 - `npm run start` -> Run the server and bundle the project
 - `npm run build` -> Bundle the project
+- `npm run test` or `npm test` -> Will run mocha to run the specs
 
 Follow me on [Twitter](https://twitter.com/bartsis)
