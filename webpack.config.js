@@ -2,10 +2,6 @@ var path = require('path'),
     webpack = require('webpack'),
     ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-if(!global.PROD){
-  global.PROD = false;
-}
-
 module.exports = {
   entry:'./app/app.js',
   output:{
@@ -26,7 +22,7 @@ module.exports = {
     ]
   },
   plugins:[
-    new webpack.optimize.UglifyJsPlugin({minimize:PROD}),
+    new webpack.optimize.UglifyJsPlugin({minimize:true}),
     new ExtractTextPlugin('bundle.css')
   ]
 }
