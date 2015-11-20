@@ -1,8 +1,9 @@
-import Robot from './Robot';
+import __styles from './app.scss';
+import Robot from './robot/Robot.js';
 
-var robot = new Robot(),
+var robot = new Robot('Brionator'),
     btn = document.querySelector('#btnSayHello');
 
 btn.onclick = () => {
-  robot.sayHello();
+  alert(robot.sayHello());
 }
